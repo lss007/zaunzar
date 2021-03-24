@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	color: #3c434d;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+img {
+	max-width: 100%;
+}
+a {
+	color: inherit;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+}
+a:hover {
+	text-decoration: none;
+}
+:focus {
+	outline: none;
+}
+html {
+	font-size: 14px;
+}
+.pageContainer {
+	padding-left: 250px;
+}
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #2c343f;
+	color: #fff;
+	width: 250px;
+}
+.logoCol {
+	background-color: #3c434d;
+	padding: 20px 15px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1;
+}
+.menuCol > ul > li > a {
+	display: block;
+	padding: 10px 15px 10px 45px;
+	color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	line-height: 1.2;
+}
+.menuCol > ul > li > a .menuIcon {
+	display: inline-block;
+	width: 22px;
+	text-align: center;
+	padding-right: 4px;
+	position: absolute;
+	left: 15px;
+	top: 11px;
+}
+.menuCol > ul > li > a:hover, .menuCol > ul > li > a:focus, .menuCol > ul > li > a.router-link-active {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.menuCol {
+	max-height: calc(100vh - 52px);
+	overflow-y: auto;
+}
+.menuCol > ul {
+	padding: 10px 0 20px;
+}
+.siteHeader {
+	position: fixed;
+	background-color: #fff;
+	padding: 12px 30px 14px;
+	left: 250px;
+	right: 0;
+	top: 0;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+.pageContent {
+	padding: 80px 30px 20px;
+}
+
+
+.lightBg {
+	background-color: #f9f9f9;
+}
+.pageHeading {
+	color: #545454;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin: 0;
+}
+.breadcrumb.breadcrumbStyle {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	color: #5c90d2;
+}
+.breadcrumbStyle .breadcrumb-item.active {
+	color: #999999;
+}
+.tabContentBody {
+	padding: 20px;
+}
+.mdTitle {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.tabStyle1 {
+	background-color: #fff;
+}
+.tabStyle1 .nav-item {
+	padding: 10px 12px;
+}
+.tabStyle1 .nav-link {
+	padding: 0px;
+	margin: 0;
+	border: none;
+	position: relative;
+}
+.tabStyle1 .nav-link::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: -10px;
+	height: 2px;
+	background-color: #5c90d2;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+}
+.tabStyle1 .nav-link.active::before, .tabStyle1 .nav-link:hover::before {
+	left: 0;
+	right: 0;
+}
+.tabStyle1 .nav-link.active {
+	color: #5c90d2;
+}
+.optionLinks > li {
+	display: inline-block;
+	vertical-align: top;
+}
+.optionLinks > li + li {
+	margin-left: 2px;
+}
+.smTitle {
+	font-size: 18px;
+	font-weight: 500;
+}
