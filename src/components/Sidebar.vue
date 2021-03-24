@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
     <div class="logoCol">
-      <router-link to="/">ZAUNZAR ERP</router-link>
+      <router-link to="/dashboard">ZAUNZAR ERP</router-link>
     </div>
     <div class="menuCol">
       <ul>

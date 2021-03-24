@@ -1,18 +1,12 @@
 <template>
   <div id="app">
     <div class="pageContainer">
-
       <Sidebar></Sidebar>
       <div class="pageContent">
         <Header></Header>
         <router-view/>
       </div>
     </div>
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/> -->
   </div>
 </template>
 
